@@ -1,2 +1,3 @@
-# Portf-lio
-Meu Portfólio em ReactJS 
+# Portfólio em andamento...
+
+Utilizando ReactJs Hooks - Styled Component
