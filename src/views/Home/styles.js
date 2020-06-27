@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 width: 100%;
-height: 100%;
 flex-direction: column;
 align-items: center;
 `
@@ -13,71 +12,55 @@ justify-content: space-between;
 background-color: #03272D;
 padding-left: 30px;
 padding-right: 30px;
+height: 70px;
+width: 80%;
+margin-left: 10%;
+border-radius: 40px;
 
 .inative {
   opacity: 0.5;
 }
+
+  svg:hover {
+    width: 50px;
+    height: 50px;
+  }
 
 button {
   border: none;
   background: none;
   outline: none;
 }
-
-img {
-  width: 50px;
-  height: 50px;
-  margin: 10px;
-  cursor: pointer;
-}
-`
-export const Seta = styled.div`
-  position: absolute;
-  border-top: 20px solid #03272D;
-  border-left: 25px solid transparent;  
-  border-right: 25px solid transparent; 
-  color: #03272D;
-  margin: 0 10px; 
-  float: left;
-  outline: none;
 `
 
-export const SetaNone = styled.div`
-  display: none;
-`
-
-export const SetaContainer = styled.div`
-
-.progressBar {
-  position: absolute;
-  margin-top: 400px;
-  background-color: #F2F;
-  z-index: 999px;
-}
-`
-
-export const ContaintCard = styled.div`
+export const IconPerfil = styled.div`
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 40px;
+  align-self: center;
 `
 
-export const Front_card = styled.div`
-    border-radius: 20px;
-    border: 2px solid #000;
-    width: 400px;
-    height: 500px;
-    display:flex;
-    align-items: center;
-    box-shadow: 4px 10px 10px #F3F3F3;
+export const ContaintCard = styled.div`
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 `
 
-export const Back_card = styled.div`
-    border-radius: 30px;
-    border: 2px solid #000;
-    width: 400px;
-    height: 500px;
-    display:flex;
-    align-items: center;
+export const Content = styled.div`  
+  hr {
+    margin-left: 30px;
+    width: calc(100% - 60px);
+    margin-top: -30px;
+  }
+
+  .font_titulo {
+    margin-top: 300%;
+  }
 `
+

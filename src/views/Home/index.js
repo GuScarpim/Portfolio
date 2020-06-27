@@ -1,54 +1,50 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import * as S from './styles.js';
+import './styles.css';
 
 //Components
-import Header from '../../components/Header';
-import ProgressBar from 'react-bootstrap/ProgressBar'
-import ReactCardFlip from 'react-card-flip';
+import Header from '../../components/Menu';
+import Card from '../../components/Card/';
+import AnimatedText from '../../components/AnimatedText';
+import ScrollAnimetd from '../../components/AnimatedSroll';
+
+//Bibliotecas
+import { Divider } from '@material-ui/core';
 
 //icons
 import TypeIcons from '../../utils/icons';
 
 export default function Home() {
   const [type, setType] = useState();
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [icon, setIcon] = useState();
 
-
-  function handleClick() {
-    setIsFlipped(!isFlipped);
+  function Icon(index, icon) {
+    setType(index)
+    setIcon(index)
   }
 
   return (
     <S.Container>
+      <ScrollAnimetd />
       <Header />
+      <br />
       <S.TypeIcons>
         {TypeIcons.map((icon, index) => (
-          index > 0 && <button type='button' onClick={() => setType(index)}>
-            <img src={icon} alt='Icones das minhas Skills'
-              className={type && type != index && 'inative'} />
-            {type && type != index ?
-              <S.SetaNone />
-              : type > 0 ?
-                <S.SetaContainer>
-                  <S.Seta />
-                  <ProgressBar animated now={45} className={'progressBar'} />
-                </S.SetaContainer> : <S.SetaNone />
-            }
-
+          index > 0 && <button type='button' onClick={() => Icon(index, icon)}>
+            <i className={type && type != index && 'inative'}>{icon}</i>
           </button>
         ))}
       </S.TypeIcons>
       <S.ContaintCard>
-        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-          <S.Front_card>
-          <button onClick={() => handleClick()}>Click to flip</button>
-          </S.Front_card>
-
-          <S.Back_card>
-          <button onClick={() => handleClick()}>Click to flip</button>
-          </S.Back_card>
-        </ReactCardFlip>
+        {icon > 0 &&
+          <Card icon={icon} />
+        }
       </S.ContaintCard>
-    </S.Container>
+      <div className='espacamento' />
+        <S.Content>
+          <AnimatedText />
+          <Divider />
+        </S.Content>
+    </S.Container >
   );
 }

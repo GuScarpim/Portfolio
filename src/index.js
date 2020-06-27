@@ -4,8 +4,6 @@ import * as S from './styles.js';
 
 import Home from './views/Home';
 
-import Header from './components/Header';
-
 import Excel from './views/Export';
 
 ReactDOM.render(

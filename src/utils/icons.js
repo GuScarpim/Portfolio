@@ -1,27 +1,28 @@
+import React from 'react';
+import './styles.css';
+
 // Icones
-import iconAdobexd from '../assets/adobexd.png';
-import iconAngular from '../assets/angular.png';
-import iconDotnet from '../assets/dotnet.png';
-import iconJava from '../assets/java.png';
-import iconJavascript from '../assets/javascript.png';
-import iconMongodb from '../assets/mongodb.png';
-import iconNode from '../assets/node.png';
-import iconPhotoshop from '../assets/photoshop.png';
-import iconReactazul from '../assets/reactazul.png';
-import iconSql from '../assets/sql.png';
+import { FaReact, FaNodeJs, FaAngular, FaJava, FaMobileAlt } from 'react-icons/fa';
+import {
+  DiJavascript1,
+  DiMongodb,
+  DiDotnet,
+  DiDatabase,
+  DiGithub
+} from 'react-icons/di';
 
 const typeIcons = [
   null, //posicao 0 nao vai ter
-  iconReactazul,
-  iconNode,
-  iconJavascript,
-  iconAngular,
-  iconDotnet,
-  iconJava,
-  iconAdobexd,
-  iconPhotoshop,
-  iconMongodb,
-  iconSql
+  <FaReact className='FaReact' />,
+  <FaMobileAlt className='FaMobileAlt' />,
+  <FaNodeJs className='FaNodeJs' />,
+  <DiJavascript1 className='DiJavascript1' />,
+  <FaAngular className='FaAngular' />,
+  <FaJava className='FaJava' />,
+  <DiDotnet className='DiDotnet' />,
+  <DiGithub className='DiGithub' />,
+  <DiMongodb className='DiMongodb' />,
+  <DiDatabase className='DiDatabase' />,
 ]
 
 export default typeIcons;
