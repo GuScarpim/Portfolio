@@ -1,14 +1,8 @@
 import styled from 'styled-components';
 
 export const NameAnimated = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-
-  svg {
-  width: 300px;
-  cursor: pointer;
-}
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3a1;
 
 `

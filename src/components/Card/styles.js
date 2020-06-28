@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Content = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 200px;
   @-webkit-keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; } 

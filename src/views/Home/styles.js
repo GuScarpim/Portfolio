@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 100%;
-flex-direction: column;
-align-items: center;
-`
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 
+`
+//posicao dos icones
 export const TypeIcons = styled.div`
 display: flex;
 justify-content: space-between;
@@ -21,18 +22,13 @@ border-radius: 40px;
   opacity: 0.5;
 }
 
-  svg:hover {
-    width: 50px;
-    height: 50px;
-  }
-
 button {
   border: none;
   background: none;
   outline: none;
 }
 `
-
+// icone dentro dos cards
 export const IconPerfil = styled.div`
   width: 80px;
   height: 80px;
@@ -43,24 +39,13 @@ export const IconPerfil = styled.div`
   align-items: center;
   align-self: center;
 `
-
+//card
 export const ContaintCard = styled.div`
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-`
-
-export const Content = styled.div`  
-  hr {
-    margin-left: 30px;
-    width: calc(100% - 60px);
-    margin-top: -30px;
-  }
-
-  .font_titulo {
-    margin-top: 300%;
-  }
+  height: 60%;
 `
 

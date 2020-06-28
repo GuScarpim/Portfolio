@@ -17,8 +17,8 @@ export default function AnimatedText() {
     <S.Container>
       <SplitText 
         initialPose="exit" pose="enter" 
-        charPoses={charPoses} className='font_titulo mt-0'>
-        Gustavo Scarpim 
+        charPoses={charPoses} className='font_icone'>
+        Selecione um ícone...
       </SplitText>
     </S.Container>
   )

@@ -1,0 +1,42 @@
+div.page {
+  min-height: 100vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background-color: #00c9ff;
+}
+
+div.home {
+  padding-top: 0px;
+}
+
+.content_gif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.gif {
+  position: absolute;
+  top: 90%;
+  animation: is-rotating 1s infinite;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: translateY(4px);
+  }
+}
