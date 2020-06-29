@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/ie11'; 
 
 import Home from './views/Home';
 import Sobre from './views/Sobre'
@@ -16,4 +18,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-// "start": "react-scripts start",
