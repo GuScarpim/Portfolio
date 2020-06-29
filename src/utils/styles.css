@@ -51,3 +51,19 @@
   font-size: 45px;
   color: #8ABEE6;
 }
+
+@media only screen and (max-width: 620px) {
+.FaReact, .FaMobileAlt, .FaNodeJs, .DiJavascript1, 
+.FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, 
+.DiDatabase {
+  font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .FaReact, .FaMobileAlt, .FaNodeJs, .DiJavascript1, 
+  .FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, 
+  .DiDatabase {
+    font-size: 25px;
+  }
+  }

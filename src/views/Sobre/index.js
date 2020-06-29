@@ -3,14 +3,15 @@ import './styles.css';
 import * as S from './styles.js';
 
 //Components
-import AnimatedText from '../../components/AnimatedText';
 import { Flipper, Flipped } from "react-flip-toolkit";
 import Typist from 'react-typist';
-
-//Bibliotecas
-import { Divider } from '@material-ui/core';
 import { FlashOnRounded } from '@material-ui/icons';
+import posed from 'react-pose';
+
+//icons
 import { FaReact } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md'
+import { AiFillGithub, AiFillLinkedin, AiOutlineWhatsApp } from 'react-icons/ai'
 
 import Ponteiro from '../../assets/ponteiro.png';
 import Pessoa from '../../assets/pessoa.png';
@@ -28,11 +29,13 @@ const FullScreenSquare = ({ toggleFullScreen }) => (
       <Typist avgTypingDelay={30}
         startDelay={200}>
         <S.TypistContent>
-          <h1>Sobre mim</h1>
+          <h1>Sobre...</h1>
           <Typist.Delay ms={1} />
           <br />
           <p>
-            Olá, me chamo <b>Gustavo Scarpim</b> e tenho 20 anos,
+            Olá, me chamo <b>Gustavo Scarpim</b> tenho 20 anos
+              e estou em busca de uma oportunidade de atuar na área
+              de desenvolvimento de sistemas,
               sou calmo e bem concentrado naquilo que eu faço,
               apaixonado por programação gosto sempre de estar antenado
               nas novas tecnologias do mercado, gosto muito de
@@ -50,20 +53,13 @@ const FullScreenSquare = ({ toggleFullScreen }) => (
               cadastro de dados no <b>mongoDB</b>, e outra em <b>.Net Core</b> para fazer uma
               conexão no AD, assim dando acesso a um grupo específico do AD para
               realizar as postagens na Intranet.
-              A linguagem de programação que eu mais gosto de uar é o
-              <FaReact color='#00c9ff' className='mb-1' />React, por ser uma linguagem bem
-              estruturada e baseada em components, é possível reaproveitar muito código com
-              ela, assim podendo criar aplicações poderosas com ela.
+              A linguagem de programação que eu mais gosto de usar é o <FaReact color='#00c9ff' className='mb-1' /> React
+              , por ser uma linguagem bem
+              estruturada e baseada em componentes, é possível reaproveitar muito código com
+              ela, assim podendo criar aplicações poderosas.
           </p>
         </S.TypistContent>
       </Typist>
-      {/* <div className='linkdin'>
-          <div className="LI-profile-badge" data-version="v1"
-            data-size="medium" data-locale="pt_BR" data-type="vertical" data-theme="dark" data-vanity="gustavoscarpim">
-            <a class="LI-simple-link" href='https://br.linkedin.com/in/gustavoscarpim?trk=profile-badge'>
-              Gustavo Scarpim</a>
-          </div>
-        </div> */}
     </div>
   </Flipped >
 )
@@ -72,11 +68,32 @@ export default function Sobre() {
   const [fullScreen, setFullScreen] = useState(!FlashOnRounded)
   const toggleFullScreen = () => setFullScreen(prevState => !prevState)
 
+  const Perfil = posed.div({
+    hoverable: true,
+    pressable: true,
+    init: {
+      scale: 1,
+      boxShadow: '0px 0px 0px rgba(0,0,0,0)'
+    },
+    hover: {
+      scale: 1.2,
+      boxShadow: '0px 5px 10px rgba(0,0,0,0.2)'
+    },
+    press: {
+      scale: 1.1,
+      boxShadow: '0px 2px 5px rgba(0,0,0,0.1)'
+    }
+  });
+
   return (
     <div className='pageSobre'>
       <div className='icon_pessoa'>
-        <img src={Pessoa} alt='Pessoa' />
-        <h6>Sobre</h6>
+        <Perfil>
+          <button onClick={toggleFullScreen}>
+            <img src={Pessoa} alt='Pessoa' />
+            <h6>Sobre</h6>
+          </button>
+        </Perfil>
       </div>
       <div className='content_flipper'>
         <Flipper flipKey={fullScreen}>
@@ -88,6 +105,35 @@ export default function Sobre() {
         </Flipper>
         <img src={Ponteiro} alt='ponteiro' className='ponteiro' />
       </div>
+      <S.Contato>
+        <h4>Gostou do meu trabalho? Entre em contato comigo</h4>
+        <p>
+          <b>
+            <AiOutlineWhatsApp className='mb-1' /> WhatsApp: +55 (11) 96062-5389
+          </b>
+        </p>
+        <p>
+          <b>
+            <MdEmail className='mb-1' /> Email: gustavoscarpim@gmail.com
+          </b>
+        </p>
+        <p>
+          <b>
+            <a href='https://github.com/GuScarpim' target='blank'>
+              <AiFillGithub className='mb-1' /> GitHub:
+             Clique e acesse o meu GitHub
+           </a>
+          </b>
+        </p>
+        <p>
+          <b>
+            <a href='https://www.linkedin.com/in/gustavoscarpim/'>
+              <AiFillLinkedin className='mb-1' /> Linkedin:
+              Clique e acesse o meu  Linkedin
+            </a>
+          </b>
+        </p>
+      </S.Contato>
     </div >
   );
 }

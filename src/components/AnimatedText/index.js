@@ -12,14 +12,17 @@ const charPoses = {
     delay: ({ charIndex }) => charIndex * 30
   }
 };
-export default function AnimatedText() {
+export default function AnimatedText({ description }) {
   return (
     <S.Container>
-      <SplitText 
-        initialPose="exit" pose="enter" 
-        charPoses={charPoses} className='font_titulo mt-0'>
-        Gustavo Scarpim 
-      </SplitText>
+      {description ? '' :
+      <SplitText
+          initialPose="exit" pose="enter"
+          charPoses={charPoses} className='font_icone'>
+          Conheça algumas das minhas habilidades
+          clicando no ícone acima...
+      </SplitText> 
+    }
     </S.Container>
   )
 }

@@ -18,6 +18,13 @@ div.pageSobre {
     background-color: #b9f0ff;
 }
 
+@media only screen and (max-width: 620px) {
+  div.pageSobre {
+    min-height: 90vh;
+    width: 147%;
+}
+}
+
 .square {
   width: 5rem;
   height: 5rem;
@@ -29,6 +36,7 @@ div.pageSobre {
 }
 
 .full-screen-square {
+  z-index: 999;
   position: fixed;
   top: 0;
   left: 0;
@@ -60,7 +68,12 @@ div.pageSobre {
   justify-content: center;
   flex-direction: column;
   min-height: 81vh;
-  animation: is-rotate 1s infinite;
+}
+
+@media only screen and (max-width: 700px) {
+  .icon_pessoa {
+    margin-top: 30%;
+  }
 }
 
 @keyframes is-translate {
@@ -69,14 +82,26 @@ div.pageSobre {
   }
 }
 
-@keyframes is-rotate {
-  to {
-    transform: translateX(2px);
-  }
-}
-
 @media only screen and (max-width: 700px) {
   .content_flipper {
     margin-top: 20%;
   }
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+button:focus {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+button:link {
+  border: none;
+  background: none;
+  outline: none;
 }

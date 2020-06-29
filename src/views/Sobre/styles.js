@@ -40,11 +40,11 @@ export const TypistContent = styled.div`
   h1 {
     text-align: center;
     padding-top: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
   }
 
   p {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: sans-serif;
     padding-left: 20%;
     padding-right: 20%;
     font-size: 26px;
@@ -59,6 +59,35 @@ export const TypistContent = styled.div`
     p {
     font-size: 16px;
   }
+  }
+`
+export const Contato = styled.div`  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  
+  &:hover {
+    color: #2196F3; 
+  }
+
+  h4 {
+    margin-bottom: 40px;
+  }
+
+  }
+    
+  @media only screen and (max-width: 700px) {
+    h4 {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
   }
 `
 

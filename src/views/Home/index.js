@@ -3,16 +3,12 @@ import * as S from './styles.js';
 import './styles.css';
 
 //Components
-import Header from '../../components/Menu';
 import Card from '../../components/Card/';
-import AnimatedText from '../../components/AnimatedText';
-import AnimatedTextIcon from '../../components/AnimatedText/selecione';
-import ScrollAnimetd from '../../components/AnimatedSroll';
+import AnimatedTextIcon from '../../components/AnimatedText';
+import ScrollAnimetd from '../../components/AnimatedScroll';
 import posed from 'react-pose';
 import Seta from '../../assets/seta.png';
-
-//Bibliotecas
-import { Divider } from '@material-ui/core';
+import SetaCima from '../../assets/setacima.png';
 
 //icons
 import TypeIcons from '../../utils/icons';
@@ -21,6 +17,9 @@ import TypeIcons from '../../utils/icons';
 export default function Home() {
   const [type, setType] = useState();
   const [icon, setIcon] = useState();
+  const [desc, setDesc] = useState(true);
+  const [seta, setSeta] = useState(true);
+
   const Icons = posed.div({
     hoverable: true,
     pressable: true,
@@ -41,11 +40,14 @@ export default function Home() {
   function Icon(index, icon) {
     setType(index)
     setIcon(index)
+    setSeta(false)
+    setInterval(() => {
+      setDesc(false)
+    }, 900);
   }
 
   return (
     <div className='page'>
-        {/* <Header /> */}
       <S.Container>
         <ScrollAnimetd />
         <br />
@@ -56,6 +58,10 @@ export default function Home() {
               <Icons>
                 <i className={type && type != index && 'inative'}>{icon}</i>
               </Icons>
+              {seta ?
+                <img src={SetaCima} className='seta_cima' alt='Seta para cima' />
+                : ''
+              }
             </button>
           ))}
         </S.TypeIcons>
@@ -64,7 +70,11 @@ export default function Home() {
             <Card icon={icon} />
           }
         </S.ContaintCard>
-        <AnimatedTextIcon />
+        <div className='texto_animado'>
+          {desc ?
+            <AnimatedTextIcon /> : ''
+          }
+        </div>
         <div className='content_gif'>
           <img src={Seta} className='gif' />
         </div>

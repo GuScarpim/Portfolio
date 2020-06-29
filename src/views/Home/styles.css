@@ -1,5 +1,5 @@
 div.page {
-  min-height: 100vh;
+    min-height: 100vh;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -18,6 +18,14 @@ div.page {
     background-color: #00c9ff;
 }
 
+
+@media only screen and (max-width: 620px) {
+  div.page {
+    min-height: 90vh;
+    width: 147%;
+}
+}
+
 div.home {
   padding-top: 0px;
 }
@@ -29,10 +37,31 @@ div.home {
   align-self: center;
 }
 
+.seta_cima {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -15px;
+  animation: is-rotating 1s infinite;
+}
+
+@media only screen and (max-width: 620px) {
+.seta_cima {
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: -6px;
+}
+}
+
 .gif {
   position: absolute;
   top: 90%;
   animation: is-rotating 1s infinite;
+}
+
+@media only screen and (max-width: 620px) {
+  .gif {
+    top: 80%;
+  }
 }
 
 @keyframes is-rotating {

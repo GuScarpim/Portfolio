@@ -1,0 +1,34 @@
+App {
+  text-align: right !important;
+  height: 5000px;
+}
+
+.scrollTop {
+  margin-left: 48%;
+  position: fixed; 
+  width: 50px;
+  bottom: 20px;
+  height: 20px;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  
+}
+
+.scroll_position {
+ margin-left: 45%;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

@@ -27,6 +27,29 @@ button {
   background: none;
   outline: none;
 }
+
+@media only screen and (max-width: 620px) {
+  justify-content: space-between;
+  background-color: #03272D;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 50px;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 40px;
+}
+
+@media only screen and (max-width: 400px) {
+  justify-content: space-between;
+  background-color: #03272D;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 40px;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 40px;
+}
+
 `
 // icone dentro dos cards
 export const IconPerfil = styled.div`
@@ -38,14 +61,19 @@ export const IconPerfil = styled.div`
   justify-content: center;
   align-items: center;
   align-self: center;
+
+  @media only screen and (max-width: 620px) {
+  width: 30px;
+  height: 30px;
+  }
 `
 //card
 export const ContaintCard = styled.div`
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 60%;
+  padding-top: -50px;
 `
 
