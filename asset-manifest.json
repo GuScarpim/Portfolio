@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.8ef37b81.chunk.css",
+    "main.js": "/Portfolio/static/js/main.f8631df3.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.f8631df3.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.abe3c866.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.abe3c866.js.map",
+    "static/js/2.ae8b290f.chunk.js": "/Portfolio/static/js/2.ae8b290f.chunk.js",
+    "static/js/2.ae8b290f.chunk.js.map": "/Portfolio/static/js/2.ae8b290f.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.306e68d905bec3b3dcbdb1e2b5d6dd3e.js": "/Portfolio/precache-manifest.306e68d905bec3b3dcbdb1e2b5d6dd3e.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.8ef37b81.chunk.css.map": "/Portfolio/static/css/main.8ef37b81.chunk.css.map",
+    "static/js/2.ae8b290f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ae8b290f.chunk.js.LICENSE.txt",
+    "static/media/ReactNativeCep-cropet.gif": "/Portfolio/static/media/ReactNativeCep-cropet.f57519e0.gif",
+    "static/media/api.gif": "/Portfolio/static/media/api.b92871a7.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.abe3c866.js",
+    "static/js/2.ae8b290f.chunk.js",
+    "static/css/main.8ef37b81.chunk.css",
+    "static/js/main.f8631df3.chunk.js"
+  ]
+}
