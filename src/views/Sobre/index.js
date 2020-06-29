@@ -127,7 +127,7 @@ export default function Sobre() {
         </p>
         <p>
           <b>
-            <a href='https://www.linkedin.com/in/gustavoscarpim/'>
+            <a href='https://www.linkedin.com/in/gustavoscarpim/' target='blank'>
               <AiFillLinkedin className='mb-1' /> Linkedin:
               Clique e acesse o meu  Linkedin
             </a>
