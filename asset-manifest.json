@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8ef37b81.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f8631df3.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f8631df3.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.a79e8a7d.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8e2a799f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8e2a799f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.abe3c866.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.abe3c866.js.map",
-    "static/js/2.ae8b290f.chunk.js": "/Portfolio/static/js/2.ae8b290f.chunk.js",
-    "static/js/2.ae8b290f.chunk.js.map": "/Portfolio/static/js/2.ae8b290f.chunk.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/Portfolio/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.68bdf4a0.chunk.js": "/Portfolio/static/js/2.68bdf4a0.chunk.js",
+    "static/js/2.68bdf4a0.chunk.js.map": "/Portfolio/static/js/2.68bdf4a0.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.306e68d905bec3b3dcbdb1e2b5d6dd3e.js": "/Portfolio/precache-manifest.306e68d905bec3b3dcbdb1e2b5d6dd3e.js",
+    "precache-manifest.4cbc176f0c4d564616b394a04f7dea46.js": "/Portfolio/precache-manifest.4cbc176f0c4d564616b394a04f7dea46.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.8ef37b81.chunk.css.map": "/Portfolio/static/css/main.8ef37b81.chunk.css.map",
-    "static/js/2.ae8b290f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ae8b290f.chunk.js.LICENSE.txt",
+    "static/css/2.af3c1da9.chunk.css.map": "/Portfolio/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.a79e8a7d.chunk.css.map": "/Portfolio/static/css/main.a79e8a7d.chunk.css.map",
+    "static/js/2.68bdf4a0.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.68bdf4a0.chunk.js.LICENSE.txt",
     "static/media/ReactNativeCep-cropet.gif": "/Portfolio/static/media/ReactNativeCep-cropet.f57519e0.gif",
-    "static/media/api.gif": "/Portfolio/static/media/api.b92871a7.gif"
+    "static/media/api.gif": "/Portfolio/static/media/api.b92871a7.gif",
+    "static/media/locadora.gif": "/Portfolio/static/media/locadora.66102338.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.abe3c866.js",
-    "static/js/2.ae8b290f.chunk.js",
-    "static/css/main.8ef37b81.chunk.css",
-    "static/js/main.f8631df3.chunk.js"
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.68bdf4a0.chunk.js",
+    "static/css/main.a79e8a7d.chunk.css",
+    "static/js/main.8e2a799f.chunk.js"
   ]
 }
