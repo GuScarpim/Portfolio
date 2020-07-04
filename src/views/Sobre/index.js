@@ -34,8 +34,8 @@ const FullScreenSquare = ({ toggleFullScreen }) => (
           <br />
           <p>
             Olá, me chamo <b>Gustavo Scarpim</b> tenho 20 anos
-              e estou em busca de uma oportunidade de atuar na área
-              de desenvolvimento de sistemas,
+              e estou em busca de uma oportunidade de atuar como 
+              desenvolvedor Front End,
               sou calmo e bem concentrado naquilo que eu faço,
               apaixonado por programação gosto sempre de estar antenado
               nas novas tecnologias do mercado, gosto muito de

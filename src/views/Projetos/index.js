@@ -5,6 +5,7 @@ import './styles.css';
 import Bounce from 'react-reveal/Bounce';
 import PjCard from '../../components/Card/pjcard';
 import Seta from '../../assets/seta.png';
+import Locadora from '../../assets/locadora.gif'
 
 import ReactNative from '../../assets/ReactNativeCep-cropet.gif';
 import Api from '../../assets/api.gif';
@@ -38,6 +39,18 @@ export default function Sobre() {
               fazer um ComboBox e tabela dinâmica, e com validar o endereço com o CEP.'
             linkApi='https://viacep.com.br/'
             linkFront='https://github.com/GuScarpim/BuscarCep-React'
+          />
+          <PjCard
+            titulo='Locadora de Filmes ReactJS'
+            linkGitHub='https://github.com/GuScarpim/Filmes_KRS'
+            gifGit={Locadora}
+            subTitulo='Esse projeto foi desenvolvido como um desafio do grupo 
+              KRS.'
+            descricao='Para solucionar esse desafio da Locadora eu desenvolvi uma 
+            API em NodeJS com MongoDB e o FrontEnd foi feito em React Hooks com 
+            Styled Component.'
+            linkApi='https://github.com/GuScarpim/Filmes_KRS/tree/master/api'
+            linkFront='https://github.com/GuScarpim/Filmes_KRS/tree/master/web'
           />
           <PjCard
             titulo='Buscar Cep React Native'

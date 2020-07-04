@@ -37,6 +37,10 @@ export const Content = styled.div`
   }
 `
 export const TypistContent = styled.div`  
+  overflow: scroll;
+
+
+
   h1 {
     text-align: center;
     padding-top: 20px;
@@ -60,6 +64,12 @@ export const TypistContent = styled.div`
     font-size: 16px;
   }
   }
+  @media only screen and (max-width: 300px) and (max-height: 500px) {
+    p {
+    font-size: 12px;
+  }
+  }
+
 `
 export const Contato = styled.div`  
   display: flex;

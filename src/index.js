@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'react-app-polyfill/ie9';
-import 'react-app-polyfill/ie11'; 
+import './index_public.css';
 
 import Home from './views/Home';
 import Sobre from './views/Sobre'

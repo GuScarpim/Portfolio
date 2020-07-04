@@ -36,6 +36,7 @@ div.pageSobre {
 }
 
 .full-screen-square {
+  overflow: scroll !important;
   z-index: 999;
   position: fixed;
   top: 0;
@@ -47,6 +48,7 @@ div.pageSobre {
 }
 
 .content_flipper {
+  overflow: scroll !important;
   display: flex;
   align-items: center;
   justify-content: center;

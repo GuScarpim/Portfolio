@@ -92,7 +92,7 @@ export default function Card({ icon, click }) {
                 projetado para criar aplicativos 
                 de rede escaláveis em seu BackEnd.
                 </p>
-                <p>Utilizo muito o Node juntoc com o MongoDB
+                <p>Utilizo muito o Node junto com o MongoDB
                 para criar APIs, considerada uma linguagem 'simples'
                 porém com um 'poder' imenso no BackEnd.
                 </p>
