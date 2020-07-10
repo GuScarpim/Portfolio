@@ -48,7 +48,7 @@ export default function Sobre() {
             subTitulo='Demostrando como fazer autenticação com o Google e
               deixar rotas privadas.'
             descricao='Desenvolvi esse projeto para demonstrar uma maneira de 
-              deixar as suas rotas ser acessada somente depois que fizer o login com
+              deixar as suas rotas serem acessadas somente depois que fizer o login com
               o google.'
             noneApi={true}
             linkFront='https://github.com/GuScarpim/Next_Google_Route_Private'
