@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a79e8a7d.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8e2a799f.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8e2a799f.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.a3531b42.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0fafc5ed.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0fafc5ed.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.abe3c866.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.abe3c866.js.map",
     "static/css/2.af3c1da9.chunk.css": "/Portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.68bdf4a0.chunk.js": "/Portfolio/static/js/2.68bdf4a0.chunk.js",
-    "static/js/2.68bdf4a0.chunk.js.map": "/Portfolio/static/js/2.68bdf4a0.chunk.js.map",
+    "static/js/2.e0002f3b.chunk.js": "/Portfolio/static/js/2.e0002f3b.chunk.js",
+    "static/js/2.e0002f3b.chunk.js.map": "/Portfolio/static/js/2.e0002f3b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.4cbc176f0c4d564616b394a04f7dea46.js": "/Portfolio/precache-manifest.4cbc176f0c4d564616b394a04f7dea46.js",
+    "precache-manifest.523fa6a09180701d1461d858a0513eb3.js": "/Portfolio/precache-manifest.523fa6a09180701d1461d858a0513eb3.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/Portfolio/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.a79e8a7d.chunk.css.map": "/Portfolio/static/css/main.a79e8a7d.chunk.css.map",
-    "static/js/2.68bdf4a0.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.68bdf4a0.chunk.js.LICENSE.txt",
+    "static/css/main.a3531b42.chunk.css.map": "/Portfolio/static/css/main.a3531b42.chunk.css.map",
+    "static/js/2.e0002f3b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e0002f3b.chunk.js.LICENSE.txt",
     "static/media/ReactNativeCep-cropet.gif": "/Portfolio/static/media/ReactNativeCep-cropet.f57519e0.gif",
     "static/media/api.gif": "/Portfolio/static/media/api.b92871a7.gif",
-    "static/media/locadora.gif": "/Portfolio/static/media/locadora.66102338.gif"
+    "static/media/locadora.gif": "/Portfolio/static/media/locadora.66102338.gif",
+    "static/media/next_google.gif": "/Portfolio/static/media/next_google.234a5b15.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.abe3c866.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.68bdf4a0.chunk.js",
-    "static/css/main.a79e8a7d.chunk.css",
-    "static/js/main.8e2a799f.chunk.js"
+    "static/js/2.e0002f3b.chunk.js",
+    "static/css/main.a3531b42.chunk.css",
+    "static/js/main.0fafc5ed.chunk.js"
   ]
 }
