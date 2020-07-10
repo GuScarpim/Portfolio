@@ -6,6 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 import PjCard from '../../components/Card/pjcard';
 import Seta from '../../assets/seta.png';
 import Locadora from '../../assets/locadora.gif'
+import Next from '../../assets/next_google.gif'
 
 import ReactNative from '../../assets/ReactNativeCep-cropet.gif';
 import Api from '../../assets/api.gif';
@@ -39,6 +40,18 @@ export default function Sobre() {
               fazer um ComboBox e tabela dinâmica, e com validar o endereço com o CEP.'
             linkApi='https://viacep.com.br/'
             linkFront='https://github.com/GuScarpim/BuscarCep-React'
+          />
+          <PjCard
+            titulo='Google/Private Route NextJs(SSR)'
+            linkGitHub='https://github.com/GuScarpim/Next_Google_Route_Private'
+            gifGit={Next}
+            subTitulo='Demostrando como fazer autenticação com o Google e
+              deixar rotas privadas.'
+            descricao='Desenvolvi esse projeto para demonstrar uma maneira de 
+              deixar as suas rotas ser acessada somente depois que fizer o login com
+              o google.'
+            noneApi={true}
+            linkFront='https://github.com/GuScarpim/Next_Google_Route_Private'
           />
           <PjCard
             titulo='Locadora de Filmes ReactJS'

@@ -34,8 +34,7 @@ const FullScreenSquare = ({ toggleFullScreen }) => (
           <br />
           <p>
             Olá, me chamo <b>Gustavo Scarpim</b> tenho 20 anos
-              e estou em busca de uma oportunidade de atuar como 
-              desenvolvedor Front End,
+              e sou desenvolvedor Front End,
               sou calmo e bem concentrado naquilo que eu faço,
               apaixonado por programação gosto sempre de estar antenado
               nas novas tecnologias do mercado, gosto muito de
@@ -88,12 +87,10 @@ export default function Sobre() {
   return (
     <div className='pageSobre'>
       <div className='icon_pessoa'>
-        <Perfil>
-          <button onClick={toggleFullScreen}>
-            <img src={Pessoa} alt='Pessoa' />
-            <h6>Sobre</h6>
-          </button>
-        </Perfil>
+        <button onClick={toggleFullScreen}>
+          <img src={Pessoa} alt='Pessoa' />
+          <h6>Sobre</h6>
+        </button>
       </div>
       <div className='content_flipper'>
         <Flipper flipKey={fullScreen}>

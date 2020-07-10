@@ -70,6 +70,8 @@ div.pageSobre {
   justify-content: center;
   flex-direction: column;
   min-height: 81vh;
+  margin-top: -5px;
+  margin-left: -2px;
 }
 
 @media only screen and (max-width: 700px) {
