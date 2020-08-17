@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f2783cf4.chunk.css",
+    "main.css": "/Portfolio/static/css/main.98f9da32.chunk.css",
     "main.js": "/Portfolio/static/js/main.a3014a71.chunk.js",
     "main.js.map": "/Portfolio/static/js/main.a3014a71.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.abe3c866.js",
@@ -9,10 +9,10 @@
     "static/js/2.0034cfcd.chunk.js": "/Portfolio/static/js/2.0034cfcd.chunk.js",
     "static/js/2.0034cfcd.chunk.js.map": "/Portfolio/static/js/2.0034cfcd.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.014a770a6c2820b661a0357391cc9627.js": "/Portfolio/precache-manifest.014a770a6c2820b661a0357391cc9627.js",
+    "precache-manifest.da63a293ef4a751d49844c9809142bb5.js": "/Portfolio/precache-manifest.da63a293ef4a751d49844c9809142bb5.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Portfolio/static/css/2.11829350.chunk.css.map",
-    "static/css/main.f2783cf4.chunk.css.map": "/Portfolio/static/css/main.f2783cf4.chunk.css.map",
+    "static/css/main.98f9da32.chunk.css.map": "/Portfolio/static/css/main.98f9da32.chunk.css.map",
     "static/js/2.0034cfcd.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0034cfcd.chunk.js.LICENSE.txt",
     "static/media/ReactNativeCep-cropet.gif": "/Portfolio/static/media/ReactNativeCep-cropet.f57519e0.gif",
     "static/media/api.gif": "/Portfolio/static/media/api.b92871a7.gif",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.abe3c866.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.0034cfcd.chunk.js",
-    "static/css/main.f2783cf4.chunk.css",
+    "static/css/main.98f9da32.chunk.css",
     "static/js/main.a3014a71.chunk.js"
   ]
 }
