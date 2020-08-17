@@ -78,11 +78,10 @@ export default function Card({ icon, click }) {
             <Divider className='mb-3' />
             <S.ProgressBarContent>
               <ProgressBar now={70} label={'70%'} className='mb-2' />
-                <p>O NextJS .
-                </p>
-                <p>Ela é a segunda linguagem de programação que eu mais gosto
-                já desenvolvi alguns projetos com ela, consumindo APIs
-                de todo o tipo.
+                <p>O NextJS é um framework utilizado para SSR (server side rendering).</p>
+                <p>Ele é muito utilizado com o ReactJs por ofereer componentes para rota,
+                  suporte a SSR, além de webpack já configurado para React e transpilação
+                  de ES6 e ES7 que incluem recursos como async e await.
                 </p>
             </S.ProgressBarContent>
           </div> :
