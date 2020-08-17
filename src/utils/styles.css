@@ -63,17 +63,27 @@
 }
 
 @media only screen and (max-width: 620px) {
-.FaReact, .FaMobileAlt, .FaVue, .FaNodeJs, .DiJavascript1, 
-.FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, 
-.DiDatabase {
-  font-size: 30px;
+  .FaReact, .FaMobileAlt, .FaVue, .FaNodeJs, .DiJavascript1, .FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, .NextIcon, .DiDatabase {
+    font-size: 30px;
+  }
 }
+
+@media only screen and (max-width: 620px) {
+  .NextIcon {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-  .FaReact, .FaMobileAlt, .FaVue, .FaNodeJs, .DiJavascript1, 
-  .FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, 
-  .DiDatabase {
+  .NextIcon {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .FaReact, .FaMobileAlt, .FaVue, .FaNodeJs, .DiJavascript1, .FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, .NextIcon, .DiDatabase {
     font-size: 25px;
   }
-  }
+}
