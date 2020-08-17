@@ -6,8 +6,10 @@ import { Divider } from '@material-ui/core';
 import { ProgressBar } from 'react-bootstrap';
 
 //icons
-import { FaReact, FaNodeJs, FaAngular, FaJava, FaMobileAlt } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaAngular, FaJava, FaMobileAlt, FaVuejs } from 'react-icons/fa';
 import { DiJavascript1, DiMongodb, DiDotnet, DiDatabase, DiGithub } from 'react-icons/di';
+import VuePng from '../../assets/vue.png';
+import NextJs from '../../assets/next.svg';
 
 //Animacao
 import { useSpring, animated } from 'react-spring';
@@ -17,7 +19,7 @@ const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg)
 
 export default function Card({ icon, click }) {
   const [props, set] = useSpring(() => ({ xys: [0, 0, 1], config: { mass: 5, tension: 350, friction: 40 } }))
-  
+
   return (
     <S.Content>
       <animated.div
@@ -29,23 +31,27 @@ export default function Card({ icon, click }) {
         <S.IconPerfil icon={icon}>
          {icon === 1 ? 
           <FaReact className='FaReact'/> :
-          icon === 2 ? 
+          icon === 2 ?
+          <img src={NextJs} alt="Icon Next" className='NextIcon' /> :
+          icon === 3 ? 
           <FaMobileAlt className='FaMobileAlt'/> :
-          icon === 3 ?
-          <FaNodeJs className='FaNodeJs'/> : 
-          icon === 4 ?
-          <DiJavascript1 className='DiJavascript1'/> :
+          icon === 4 ? 
+          <FaVuejs className='FaVue' />:
           icon === 5 ?
-          <FaAngular className='FaAngular'/> :
+          <FaNodeJs className='FaNodeJs'/> : 
           icon === 6 ?
-          <FaJava className='FaJava'/> :
+          <DiJavascript1 className='DiJavascript1'/> :
           icon === 7 ?
-          <DiDotnet className='DiDotnet'/> :
+          <FaAngular className='FaAngular'/> :
           icon === 8 ?
-          <DiGithub className='DiGithub'/> :
+          <FaJava className='FaJava'/> :
           icon === 9 ?
-          <DiMongodb className='DiMongodb'/> :
+          <DiDotnet className='DiDotnet'/> :
           icon === 10 ?
+          <DiGithub className='DiGithub'/> :
+          icon === 11 ?
+          <DiMongodb className='DiMongodb'/> :
+          icon === 12 ?
           <DiDatabase className='DiDatabase'/> : ''
         }
         </S.IconPerfil>
@@ -55,7 +61,7 @@ export default function Card({ icon, click }) {
             <h2>React</h2>
             <Divider className='mb-3'/>
             <S.ProgressBarContent>
-              <ProgressBar now={80} label={'80%'} className='mb-2' />
+              <ProgressBar now={85} label={'85%'} className='mb-2' />
                 <p>O React é uma biblioteca JavaScript 
                 baseada em componentes criada para auxiliar
                 no desenvolvimento web.
@@ -67,6 +73,20 @@ export default function Card({ icon, click }) {
             </S.ProgressBarContent>
           </div> :
           icon === 2 ?
+          <div> 
+          <h2>NextJs</h2>
+            <Divider className='mb-3' />
+            <S.ProgressBarContent>
+              <ProgressBar now={70} label={'70%'} className='mb-2' />
+                <p>O NextJS .
+                </p>
+                <p>Ela é a segunda linguagem de programação que eu mais gosto
+                já desenvolvi alguns projetos com ela, consumindo APIs
+                de todo o tipo.
+                </p>
+            </S.ProgressBarContent>
+          </div> :
+          icon === 3 ?
           <div> 
           <h2>Mobile React Native</h2>
             <Divider className='mb-3' />
@@ -82,11 +102,23 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 3 ?
+          icon === 4 ?
+          <div> 
+          <h2>VueJS</h2>
+            <Divider className='mb-3' />
+            <S.ProgressBarContent>
+              <ProgressBar now={65} label={'65%'} className='mb-2' />
+                <p>O VueJS é um framework progressivo para a construção de interfaces de usuário.</p>
+                <p>Ela é uma linguagem fácil de se usar e de alta performance,
+                  com ela conseguimos criar grandes aplicações com poucas linhas de código.
+                </p>
+            </S.ProgressBarContent>
+          </div> :
+          icon === 5 ?
            <div> 
             <h2>NodeJS</h2> 
             <Divider className='mb-3'/>
-           <ProgressBar now={50} label={'50%'} className='mb-2' />
+           <ProgressBar now={55} label={'55%'} className='mb-2' />
             <S.ProgressBarContent>
                 <p>O NodeJs é um runtime JavaScript 
                 projetado para criar aplicativos 
@@ -98,7 +130,7 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 4 ?
+          icon === 6 ?
            <div> 
             <h2>JavaScript</h2>
             <Divider className='mb-3'/>
@@ -114,7 +146,7 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 5 ?
+          icon === 7 ?
            <div> 
             <h2>AngularJS</h2>
             <Divider className='mb-3'/>
@@ -130,7 +162,7 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 6 ?
+          icon === 8 ?
            <div> 
             <h2>Java</h2>
             <Divider className='mb-3'/>
@@ -145,7 +177,7 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 7 ?
+          icon === 9 ?
            <div> 
             <h2>.Net Core</h2>
             <Divider className='mb-3'/>
@@ -161,11 +193,11 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 8 ?
+          icon === 10 ?
            <div> 
             <h2>Git</h2>
             <Divider className='mb-3'/>
-           <ProgressBar now={75} label={'75%'} className='mb-2' />
+           <ProgressBar now={90} label={'90%'} className='mb-2' />
             <S.ProgressBarContent>
                 <p>O Git é um sistema de controle de versão 
                   de arquivos. Ele nos permite que várias pessoas
@@ -176,7 +208,7 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 9 ?
+          icon === 11 ?
            <div> 
             <h2>MongoDB</h2>
               <Divider className='mb-3'/>
@@ -192,7 +224,7 @@ export default function Card({ icon, click }) {
                 </p>
             </S.ProgressBarContent>
           </div> :
-          icon === 10 ?
+          icon === 12 ?
            <div> 
             <h2>SQL Server</h2>
             <Divider className='mb-3'/>

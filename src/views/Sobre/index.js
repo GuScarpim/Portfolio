@@ -35,17 +35,17 @@ const FullScreenSquare = ({ toggleFullScreen }) => (
           <p>
             Olá, me chamo <b>Gustavo Scarpim</b> tenho 20 anos
               e sou desenvolvedor Front End,
-              sou calmo e bem concentrado naquilo que eu faço,
+              sou calmo e bem concentrado naquilo que faço,
               apaixonado por programação gosto sempre de estar antenado
               nas novas tecnologias do mercado, gosto muito de
               estudar e estou sempre aberto para novos desafios. </p>
           <p>
-            Ao longo da minha carreira como programador eu trabalhei
+            Ao longo da minha carreira como programador trabalhei
               com várias linguagens de programação como <b> ReactJS</b>,
               <b> React Native</b>,<b> NodeJS</b>,<b> .Net Core</b>,
               <b> JavaScript</b>,<b> MongoDB</b>,<b> SQL</b>,
               desenvolvi muitos projetos utilizando essas linguagens
-              mas o projeto mais desafiador foi ter que desenvolver uma
+              mas o projeto mais desafiador foi desenvolver uma
               intranet, onde somente pessoas de uma determinada área pudesse
               postar algo nela, para resolver esse desafio eu desenvolvi duas
               <b> APIs</b> uma em <b> NodeJs</b> para fazer o upload de imagens e para fazer o

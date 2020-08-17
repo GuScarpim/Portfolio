@@ -72,13 +72,15 @@ export const IconPerfil = styled.div`
     (props.icon === 1 ? '#03272d' :
       props.icon === 2 ? '#03272d' :
         props.icon === 3 ? '#072d04' :
-          props.icon === 4 ? '#F7DF1E' :
-            props.icon === 5 ? '#060000' :
-              props.icon === 6 ? '#d6800a' :
-                props.icon === 7 ? '#160529' :
-                  props.icon === 8 ? '#000' :
-                    props.icon === 9 ? '#0b3501' :
-                      props.icon === 10 ? '#001d33' : '')};
+          props.icon === 4 ? '#072d04' :
+            props.icon === 5 ? '#072d04' :
+              props.icon === 6 ? '#F7DF1E' :
+                props.icon === 7 ? '#060000' :
+                  props.icon === 8 ? '#d6800a' :
+                    props.icon === 9 ? '#160529' :
+                      props.icon === 10 ? '#000' :
+                        props.icon === 11 ? '#0b3501' :
+                          props.icon === 12 ? '#001d33' : '')};
 
 @media only screen and (max-width: 620px) {
   width: 40px;

@@ -66,6 +66,16 @@ export default function Sobre() {
             linkFront='https://github.com/GuScarpim/Filmes_KRS/tree/master/web'
           />
           <PjCard
+            titulo='Vue Search Repos'
+            linkGitHub='https://github.com/GuScarpim/Vue_Search_Repos'
+            gifGit={'https://github.com/GuScarpim/Vue_Search_Repos/blob/master/src/assets/vue.gif?raw=true'}
+            subTitulo='Projeto desenvolvido para consultar Usuários e Repositórios do GitHub.'
+            descricao='Esse projeto foi desenvolvido para demonstrar um consumo de API fornecida pelo
+              GitHub, permitindo pesquisar usuários e os seus repositórios dentro do GitHub.'
+            linkApi='https://api.github.com/users'
+            linkFront='https://github.com/GuScarpim/Vue_Search_Repos'
+          />
+          <PjCard
             titulo='Buscar Cep React Native'
             linkGitHub='https://github.com/GuScarpim/Consulta-CEP-React-Native'
             gifGit={ReactNative}

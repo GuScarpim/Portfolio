@@ -3,9 +3,19 @@
   color: #00D8FF;
 }
 
+.NextIcon {
+  width: 50px;
+  height: 50px;
+}
+
 .FaMobileAlt {
   font-size: 45px;
   color: #d0dcde;
+}
+
+.FaVue {
+  font-size: 45px;
+  color: #81c784;
 }
 
 .FaNodeJs {
@@ -53,7 +63,7 @@
 }
 
 @media only screen and (max-width: 620px) {
-.FaReact, .FaMobileAlt, .FaNodeJs, .DiJavascript1, 
+.FaReact, .FaMobileAlt, .FaVue, .FaNodeJs, .DiJavascript1, 
 .FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, 
 .DiDatabase {
   font-size: 30px;
@@ -61,7 +71,7 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .FaReact, .FaMobileAlt, .FaNodeJs, .DiJavascript1, 
+  .FaReact, .FaMobileAlt, .FaVue, .FaNodeJs, .DiJavascript1, 
   .FaAngular, .FaJava, .DiDotnet, .DiGithub, .DiMongodb, 
   .DiDatabase {
     font-size: 25px;

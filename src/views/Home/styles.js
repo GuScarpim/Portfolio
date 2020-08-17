@@ -17,6 +17,7 @@ height: 70px;
 width: 80%;
 margin-left: 10%;
 border-radius: 40px;
+overflow: auto;
 
 .inative {
   opacity: 0.5;

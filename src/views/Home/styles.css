@@ -53,14 +53,15 @@ div.home {
 }
 
 .gif {
-  position: absolute;
-  top: 90%;
+  /* position: absolute; */
+  /* top: 90%; */
+  margin-top: 10vh;
   animation: is-rotating 1s infinite;
 }
 
 @media only screen and (max-width: 620px) {
   .gif {
-    top: 80%;
+    margin-top: 30vh;
   }
 }
 

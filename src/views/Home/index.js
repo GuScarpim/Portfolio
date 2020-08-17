@@ -71,9 +71,7 @@ export default function Home() {
           }
         </S.ContaintCard>
         <div className='texto_animado'>
-          {desc ?
-            <AnimatedTextIcon /> : ''
-          }
+          {desc && <AnimatedTextIcon /> }
         </div>
         <div className='content_gif'>
           <img src={Seta} className='gif' />
