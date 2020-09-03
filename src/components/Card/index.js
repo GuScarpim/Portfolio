@@ -79,7 +79,7 @@ export default function Card({ icon, click }) {
             <S.ProgressBarContent>
               <ProgressBar now={70} label={'70%'} className='mb-2' />
                 <p>O NextJS é um framework utilizado para SSR (server side rendering).</p>
-                <p>Ele é muito utilizado com o ReactJs por ofereer componentes para rota,
+                <p>Ele é muito utilizado com o ReactJs por ofercer componentes para rota,
                   suporte a SSR, além de webpack já configurado para React e transpilação
                   de ES6 e ES7 que incluem recursos como async e await.
                 </p>
