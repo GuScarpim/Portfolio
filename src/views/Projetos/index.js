@@ -32,14 +32,17 @@ export default function Sobre() {
             linkFront='https://github.com/GuScarpim/React-Login-PrivateRoute/tree/master/myapp'
           />
           <PjCard
-            titulo='Buscar Cep ReactJS'
-            linkGitHub='https://github.com/GuScarpim/BuscarCep-React'
+            titulo={
+              <a href="https://guscarpim.github.io/BuscarCep-React/index" target="_blank" style={{ textDecoration: 'none', color: '#000', cursor: 'pointer' }}>
+                Buscar Cep ReactJs
+              </a>}
+            linkGitHub='https://guscarpim.github.io/BuscarCep-React/index'
             gifGit='https://user-images.githubusercontent.com/47616551/73510308-742b5480-43c0-11ea-995e-cfed2c876874.gif'
             subTitulo='Demostrando como fazer o consumo de APIs públicas.'
             descricao='Desenvolvi esse projeto para demonstrar uma das maneiras de
               fazer um ComboBox e tabela dinâmica, e com validar o endereço com o CEP.'
             linkApi='https://viacep.com.br/'
-            linkFront='https://github.com/GuScarpim/BuscarCep-React'
+            linkFront='https://guscarpim.github.io/BuscarCep-React/index'
           />
           <PjCard
             titulo='Google/Private Route NextJs(SSR)'
@@ -66,14 +69,17 @@ export default function Sobre() {
             linkFront='https://github.com/GuScarpim/Filmes_KRS/tree/master/web'
           />
           <PjCard
-            titulo='Vue Search Repos'
-            linkGitHub='https://github.com/GuScarpim/Vue_Search_Repos'
+            titulo={
+              <a href="https://guscarpim.github.io/Vue_Search_Repos/" target="_blank" style={{ textDecoration: 'none', color: '#000', cursor: 'pointer' }}>
+                Vue Search Repos
+              </a>}
+            linkGitHub='https://guscarpim.github.io/Vue_Search_Repos/'
             gifGit={'https://github.com/GuScarpim/Vue_Search_Repos/blob/master/src/assets/vue.gif?raw=true'}
             subTitulo='Projeto desenvolvido para consultar Usuários e Repositórios do GitHub.'
             descricao='Esse projeto foi desenvolvido para demonstrar um consumo de API fornecida pelo
               GitHub, permitindo pesquisar usuários e os seus repositórios dentro do GitHub.'
             linkApi='https://api.github.com/users'
-            linkFront='https://github.com/GuScarpim/Vue_Search_Repos'
+            linkFront='https://guscarpim.github.io/Vue_Search_Repos/'
           />
           <PjCard
             titulo='Buscar Cep React Native'

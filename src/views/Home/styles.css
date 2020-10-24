@@ -31,10 +31,15 @@ div.home {
 }
 
 .content_gif {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
+  position: absolute;
+  bottom: 15px;
+  margin-left: 50%;
+}
+
+@media only screen and (max-height: 788px) {
+  .content_gif {
+    display: none;
+  }
 }
 
 .seta_cima {
